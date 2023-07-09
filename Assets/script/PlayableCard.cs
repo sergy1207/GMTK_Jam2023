@@ -8,7 +8,7 @@ public class PlayableCard : MonoBehaviour
 {
     public Card card;
 
-    public bool inverted = false;
+    public bool invert = false;
 
     public TextMeshPro text;
     public Material image;
@@ -23,24 +23,24 @@ public class PlayableCard : MonoBehaviour
 
     private void Update()
     {
-        if (inverted)
+        if (invert)
         {
             Invert();
-            inverted = false;
+            invert = false;
         }
     }
 
     void Invert()
     {
-        inverted = !inverted;
+        card.Invert();
         GetCardInformation();
     }
 
     void GetCardInformation()
     {
-        text.text = card.GetText(inverted);
+        text.text = card.GetText();
         cardColor = GetComponent<Renderer>().materials[1];
-        cardColor.color = card.GetColor(inverted);
-        cardImageRenderer.material = card.GetImage(inverted);
+        cardColor.color = card.GetColor();
+        cardImageRenderer.material = card.GetImage();
     }
 }

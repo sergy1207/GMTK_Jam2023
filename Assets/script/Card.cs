@@ -10,19 +10,13 @@ public class Card : ScriptableObject
     string text;
     [SerializeField]
     string invertedText;
-    [SerializeField]
-    string effect;
-    [SerializeField]
-    string invertedEffect;
+    bool inverted = false;
     [SerializeField]
     Material image, invertedImage;
     [SerializeField]
-    Sprite sprite, invertedSprite;
-    [SerializeField]
     Color color, invertedColor;
-    
 
-    public string GetText(bool inverted)
+    public string GetText()
     {
         string[] aux;
         if (inverted) 
@@ -49,7 +43,7 @@ public class Card : ScriptableObject
         return newText;
     }
 
-    public Color GetColor(bool inverted)
+    public Color GetColor()
     {
         if (inverted)
         {
@@ -61,7 +55,7 @@ public class Card : ScriptableObject
         }
     }
 
-    public Material GetImage(bool inverted)
+    public Material GetImage()
     {
         if (inverted)
         {
@@ -73,32 +67,13 @@ public class Card : ScriptableObject
         }
     }
 
-    public Sprite GetSprite(bool inverted)
-    {
-        if (inverted)
-        {
-            return invertedSprite;
-        }
-        else
-        {
-            return sprite;
-        }
-    }
-
-    public string GetEffect(bool inverted)
-    {
-        if (inverted)
-        {
-            return invertedEffect;
-        }
-        else
-        {
-            return effect;
-        }
-    }
-
     public int GetValue()
     {
         return value;
+    }
+
+    public void Invert()
+    {
+        inverted = !inverted;
     }
 }

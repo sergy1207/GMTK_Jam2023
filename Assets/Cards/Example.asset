@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c48f76a7e672a14e94da1b8fc1888c9, type: 3}
+  m_Name: Example
+  m_EditorClassIdentifier: 
+  value: 5
+  text: Deals $v$ damage.
+  invertedText: Heals $v$ hp.
+  image: {fileID: 2100000, guid: 581f09d4003d1694eaf7e292c492319b, type: 2}
+  invertedImage: {fileID: 2100000, guid: 53f0f3729ef5e80448db530346f1229c, type: 2}
+  color: {r: 1, g: 0, b: 0, a: 1}
+  invertedColor: {r: 0.23713954, g: 0.6886792, b: 0.45140272, a: 1}

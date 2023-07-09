@@ -81,6 +81,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d05bdee8ef9d74a47a3077bdd4568b61, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  card: {fileID: 11400000, guid: 36a59b9e9ca0c0945bdd73e9737913ce, type: 2}
+  invert: 0
+  text: {fileID: 0}
+  icon: {fileID: 0}
 --- !u!1 &3589538308781520893
 GameObject:
   m_ObjectHideFlags: 0
@@ -93,7 +97,7 @@ GameObject:
   - component: {fileID: 914930954213169518}
   - component: {fileID: 8132678857184994124}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: Description
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

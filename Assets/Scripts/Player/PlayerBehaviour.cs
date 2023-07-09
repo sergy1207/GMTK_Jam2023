@@ -18,7 +18,8 @@ public class PlayerBehaviour : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        health = maxHealth;
+        healthBar.UpdateLifeBar(health, maxHealth);
     }
 
     // Update is called once per frame
@@ -39,9 +40,9 @@ public class PlayerBehaviour : MonoBehaviour
     ///<summary>
     /// Suma a la cantidad actual de vida el numero de salud indicado
     ///</summary>
-    public void Heal(int health)
+    public void Heal(int _health)
     {
-        health += health;
+        health += _health;
         healthBar.UpdateLifeBar(health, maxHealth);
     }
 }

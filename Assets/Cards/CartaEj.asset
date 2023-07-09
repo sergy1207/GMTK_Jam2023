@@ -15,7 +15,11 @@ MonoBehaviour:
   value: 5
   text: Deals $v$ Damage
   invertedText: Heals $v$ HP
+  effect: GetDamage
+  invertedEffect: Heal
   image: {fileID: 2100000, guid: 3cdec054b815a1e4885eba541285f6e5, type: 2}
   invertedImage: {fileID: 2100000, guid: c87062ea2afc97e4da156875bbe0623c, type: 2}
+  sprite: {fileID: 21300000, guid: 334454c642f45c840a6818d190d6037d, type: 3}
+  invertedSprite: {fileID: 21300000, guid: 7e59b9f8a7270db4a99f53f943b18fd1, type: 3}
   color: {r: 1, g: 0, b: 0, a: 1}
   invertedColor: {r: 0, g: 0.5754717, b: 0.0059809596, a: 1}

@@ -4,8 +4,19 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
+    public static GameManager instance;
     [SerializeField] Transform MainMenu;
     [SerializeField] Transform GameCanvas;
+
+    public GameObject Enemy;
+
+    /// <summary>
+    /// Awake is called when the script instance is being loaded.
+    /// </summary>
+    void Awake()
+    {
+        instance = this;
+    }
     // Start is called before the first frame update
     void Start()
     {

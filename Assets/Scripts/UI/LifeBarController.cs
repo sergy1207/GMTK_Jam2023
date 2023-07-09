@@ -19,9 +19,9 @@ public class LifeBarController : MonoBehaviour
     ///<summary>
     /// actualiza la barra de vida
     ///</summary>
-    public void UpdateLifeBar(int health, int maxHealth = 0)
+    public void UpdateLifeBar(int health, int maxHealth)
     {
-        barFill.fillAmount = health/(float)maxHealth;
+        barFill.fillAmount = (float)health/(float)maxHealth;
         healthText.text = (health.ToString() + "/" + maxHealth.ToString());
     }
 }
