@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5f91f0983ca9864da12bff03880e106, type: 3}
+  m_Name: CartaEj
+  m_EditorClassIdentifier: 
+  value: 5
+  text: Deals $v$ Damage
+  invertedText: Heals $v$ HP
+  image: {fileID: 2100000, guid: 3cdec054b815a1e4885eba541285f6e5, type: 2}
+  invertedImage: {fileID: 2100000, guid: c87062ea2afc97e4da156875bbe0623c, type: 2}
+  color: {r: 1, g: 0, b: 0, a: 1}
+  invertedColor: {r: 0, g: 0.5754717, b: 0.0059809596, a: 1}

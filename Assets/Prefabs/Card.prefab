@@ -61,7 +61,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 9554504725c756147a25b5f374d7990e, type: 2}
+  - {fileID: 2100000, guid: 3cdec054b815a1e4885eba541285f6e5, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -205,7 +205,7 @@ MonoBehaviour:
   m_spriteAsset: {fileID: 0}
   m_tintAllSprites: 0
   m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: 93368250
+  m_TextStyleHashCode: -1183493901
   m_overrideHtmlColors: 0
   m_faceColor:
     serializedVersion: 2
@@ -266,7 +266,7 @@ GameObject:
   - component: {fileID: 341616208213085692}
   - component: {fileID: 341616208213085695}
   - component: {fileID: 341616208213085694}
-  - component: {fileID: 341616208213085693}
+  - component: {fileID: 91135699200851255}
   m_Layer: 0
   m_Name: Card
   m_TagString: Untagged
@@ -319,8 +319,8 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f3f6c696b154af849b6f36e8c60182ea, type: 2}
-  - {fileID: 2100000, guid: 9b08520f2e074d6418ca55d791ae8be3, type: 2}
+  - {fileID: 2100000, guid: a71083356336d9447868b3fb0b8b0a90, type: 2}
+  - {fileID: 2100000, guid: d9f25fe927be1484d8756e6da94c165d, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -342,7 +342,7 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &341616208213085693
+--- !u!114 &91135699200851255
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -351,14 +351,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 341616208213085688}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a94d670c8f268ee46a934f40a2cf5d61, type: 3}
+  m_Script: {fileID: 11500000, guid: 20221713368bc5c4e90bc25c3de52cf3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  card: {fileID: 11400000, guid: e04b893239a8fab42a846c4e095489fb, type: 2}
+  card: {fileID: 11400000, guid: 36a59b9e9ca0c0945bdd73e9737913ce, type: 2}
   invert: 0
-  text: {fileID: 341616208118200330}
+  text: {fileID: 0}
   image: {fileID: 0}
-  cardImageRenderer: {fileID: 341616207613730315}
+  cardImageRenderer: {fileID: 0}
 --- !u!1 &341616208729982286
 GameObject:
   m_ObjectHideFlags: 0
@@ -421,7 +421,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 51acff0edf7926e4fb1bed08138246d0, type: 2}
+  - {fileID: 2100000, guid: dc494560802ccbe4ca50502ff46520bc, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
